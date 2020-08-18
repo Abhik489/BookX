@@ -1,5 +1,0 @@
-Hello , this is an index file.
-this is in the master branch.
-update 1
-update 2
-update made in master after creating branch 1.
