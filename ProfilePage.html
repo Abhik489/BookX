@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+           .biocard{
+            height: 100%;
+            width: 70%;
+            margin-top: 16%;
+            margin-bottom: 16%;
+            margin-left: 15%;
+            background-color: rgb(184, 189, 255);
+        }
+            .cir {
+            display: block;
+            position: relative;
+            left: 40%;
+            top:-100px;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            }
+
+      .biocard h1{
+      font-size:350%;
+      border-color:black;
+      text-align: center;
+      color: black
+
+  }
+     .biocard p{
+    text-align: center;
+    font-size:200%;
+    color: black;
+  }
+
+  .biocard .statsflex
+{
+    font-size: 200%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: inherit;
+    margin-left: 15%;
+}
+
+.biocard .stats
+{
+    text-align: center;
+}
+.biocard .stats button
+{
+    width: 140px;
+    height: 60px;
+    font-size:75%;
+    border-radius: 1.5em;
+    background-color: white;
+    border: none;
+
+}
+
+
+@media only screen and (max-width: 500px)
+        {
+            .biocard{
+            height: 100%;
+            width: 70%;
+            margin-top: 45%;
+            margin-bottom: 40%;
+            margin-left: 17.5%;
+            }
+
+            .cir {
+                left: 20%;  
+             }
+
+
+    .biocard .statsflex
+        {
+    font-size: 200%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: inherit;
+    margin-left: 15%;
+      }
+
+      .biocard .stats
+      {
+        height: 3em;
+       }
+      
+        }
+        
+    </style>
+    <link href='https://fonts.googleapis.com/css?family=tittilium' rel='stylesheet'>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=BioRhyme' rel='stylesheet'>
+  
+ 
+    <title>My Profile</title>
+</head>
+
+<body>
+  
+
+      
+
+        <!--bio-->
+        <article class="biocard">
+
+            <img src="Images/profile.jpg" class="cir" alt="error">
+            <h1>Tony stark</h1>
+            <br>
+            <p class="title">CEO & Founder, Stark Industries</p>
+            <br>
+            <p>Harvard University</p>
+            <br><br>
+            <hr style="color: black;">
+            <br>
+            <br>
+            <section class="statsflex">
+                <section class="stats"> 
+                    Books Read<br>
+                    4
+                </section>
+                <section class="stats">
+                    Followers<br>
+                    495
+                </section>
+                <section class="stats">
+                    <button >Follow</button>
+                </section>
+            </section>
+          
+          </article>
+
+       
+        
+      
+
+        
+
+
+</section>
+   
+</body>
+</html>
